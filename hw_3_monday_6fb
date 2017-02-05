@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset ="utf-8">
+    <title>Instagram v 2.0</title>
+    <h1>Like these photos please</h1>
+    <h2>Becauce I want to have very much likes</h2>
+    </head>
+    <body>
+    <img src = "http://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-FwsgxoQUUu64xTHoh4QtE4gfZ1c2E7eHDcd_DPzchhzA96lON/">
+    <button onclick ="myfunction1()" id ="one">Like</button>
+    <img src = "https://pbs.twimg.com/profile_images/674018647833075712/4AnZjeut_400x400.jpg">
+    <button onclick ="myfunction2()" id ="two">like</button>
+    <img src = "https://www.sciencea-z.com/shared/images/units/animals.jpg">
+    <button onclick ="myfunction3()" id ="three">Like</button>
+
+    <script>
+    var likes1 = 0;
+    var likes2 = 0;
+    var likes3 = 0;
+
+    function myfunction1(){
+      likes1 = likes1 + 1;
+      document.getElementById("one").innerHTML = likes1;
+    }
+    function myfunction2(){
+      likes2 = likes2 + 1;
+      document.getElementById("two").innerHTML = likes2;
+    }
+    function myfunction3(){
+      likes3 = likes3 + 1;
+      document.getElementById("three").innerHTML = likes3;
+    }
+    </script>
+   </body>
+  </html>
